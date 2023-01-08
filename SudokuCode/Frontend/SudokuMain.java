@@ -218,4 +218,8 @@ public class SudokuMain {
     public void setMoveCounter(int moveCounter) {
         this.moveCounter = moveCounter;
     }
+
+    public void setVisible(boolean b) {
+        SudokuMain sudokuMain = new SudokuMain();
+    }
 }
